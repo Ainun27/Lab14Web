@@ -1,4 +1,10 @@
-![image](https://github.com/user-attachments/assets/2c8150ea-9c78-4a54-9f4f-4b15e453b14c)
+# Lab4Web
+## Ainun Dwi Permana (312310013)
+
+Tugas mengerjakan latihan pada module dua Pemrograman Web
+       
+
+#### Persiapan membuat dokumen HTML dengan nama file lab4_box.html seperti berikut.
 ```ssh
 <!DOCTYPE html>
 <html lang="en">
@@ -16,6 +22,8 @@
 
 ```
 
+#### Membuat Box Element
+- Kemudian tambahkan kode untuk membuat box element dengan tag div seperti berikut
 ```ssh
 <!DOCTYPE html>
 <html lang="en">
@@ -39,6 +47,8 @@
 
 ```
 
+#### CSS Float Property
+- Selanjutnya tambahkan deklarasi CSS pada head untuk membuat float element, seperti berikut
 ```ssh
 <!DOCTYPE html>
 <html lang="en">
@@ -76,7 +86,11 @@
 </html>
 
 ```
+![alt text](https://github.com/Ainun27/Lab4Web/blob/main/tugas4/1.png?raw=true)
 
+#### Mengatur Clearfix Element
+- Clearfix digunakan untuk mengatur element setelah float element. Property clear digunakan untuk mengaturnya.
+- Tambahkan element div lainnya seteleah div3 seperti berikut
 ```ssh
 <!DOCTYPE html>
 <html lang="en">
@@ -116,6 +130,7 @@
 
 ```
 
+- Kemudian atur property clear pada CSS, seperti berikut.
 ```ssh
 <!DOCTYPE html>
 <html lang="en">
@@ -158,6 +173,8 @@
 </body>
 </html>
 ```
+![alt text](https://github.com/Ainun27/Lab4Web/blob/main/tugas4/2.png?raw=true)
+
 
 ```ssh
 <!DOCTYPE html>
