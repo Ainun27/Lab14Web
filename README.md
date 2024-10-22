@@ -231,10 +231,13 @@ Tugas mengerjakan latihan pada module dua Pemrograman Web
 </body>
 </html>
 ```
-![alt text](https://github.com/Ainun27/Lab4Web/blob/main/tugas4/h.png?raw=true)
+![alt text](https://github.com/Ainun27/Lab4Web/blob/main/tugas4/k.png?raw=true)
 
 #### Membuat Layout Sederhana
--Buat folder baru dengan nama lab4_layout, kemudian buatlah file baru didalamnya dengan nama home.html, dan file css dengan nama style.css.
+- Kita akan membuat layout web sederhana seperti gambar berikut.
+![alt text](https://github.com/Ainun27/Lab4Web/blob/main/tugas4/i.png?raw=true)
+
+- Buat folder baru dengan nama lab4_layout, kemudian buatlah file baru didalamnya dengan nama home.html, dan file css dengan nama style.css.
 
 ```ssh
 <!DOCTYPE html>
@@ -252,7 +255,10 @@ Tugas mengerjakan latihan pada module dua Pemrograman Web
 </body>
 </html>
 ```
+- Kemudian buat kerangka layout dengan semantics element seperti berikut
+![alt text](https://github.com/Ainun27/Lab4Web/blob/main/tugas4/j.png?raw=true)
 
+- Kemudian tulis kode berikut
 ```ssh
 <!DOCTYPE html>
 <html lang="en">
@@ -285,6 +291,10 @@ Tugas mengerjakan latihan pada module dua Pemrograman Web
 </html>
 ```
 
+- Kemudian buka browser dan lihat hasilnya.
+![alt text](https://github.com/Ainun27/Lab4Web/blob/main/tugas4/3.png?raw=true)
+
+- Kemudian tambahkan kode CSS untuk membuat layoutnya
 ```ssh
 <!DOCTYPE html>
 <html lang="en">
@@ -319,6 +329,12 @@ Tugas mengerjakan latihan pada module dua Pemrograman Web
 </html>
 ```
 
+- Kemudian lihat hasilnya pada browser.
+![alt text](https://github.com/Ainun27/Lab4Web/blob/main/tugas4/4.png?raw=true)
+
+
+#### Membuat Navigasi
+- Kemudian selanjutnya mengatur navigasi.
 ```ssh
 * {
     margin: 0;
@@ -387,7 +403,11 @@ nav a:hover {
     background-color: #2b83ea;
 }
 ```
+- Kemudian lihat hasilnya.
+![alt text](https://github.com/Ainun27/Lab4Web/blob/main/tugas4/5.png?raw=true)
 
+#### Membuat Hero Panel.
+- Selanjutnya membuat hero panel. Tambahkan kode HTML dan CSS seperti berikut
 ```ssh
 <!DOCTYPE html>
 <html lang="en">
@@ -487,7 +507,10 @@ nav a:hover {
     line-height: 25px;
 }
 ```
+![alt text](https://github.com/Ainun27/Lab4Web/blob/main/tugas4/6.png?raw=true)
 
+#### Mengatur Layout Main dan Sidebar
+- Selanjutnya mengatur main content dan sidebar, tambahkan CSS floa
 ```ssh
 * {
     margin: 0;
@@ -562,6 +585,8 @@ nav a:hover {
 }
 ```
 
+#### Membuat Sidebar Widget
+- Kemudian selanjutnya menambahkan element lain dalam sidebar.
 ```ssh
 <!DOCTYPE html>
 <html lang="en">
@@ -624,6 +649,7 @@ nav a:hover {
 </html>
 ```
 
+- Kemudian tambahkan CSS
 ```ssh
 * {
     margin: 0;
@@ -724,7 +750,10 @@ nav a:hover {
     line-height:25px;
 }
 ```
+![alt text](https://github.com/Ainun27/Lab4Web/blob/main/tugas4/7.png?raw=true)
 
+#### Mengatur Footer
+- Selanjutnya mengatur tampilan footer. Tambahkan CSS untuk footer.
 ```ssh
 * {
     margin: 0;
@@ -831,7 +860,9 @@ footer {
     color:#eee;
 }
 ```
+![alt text](https://github.com/Ainun27/Lab4Web/blob/main/tugas4/8.png?raw=true)
 
+#### Menambahkan Elemen lainnya pada Main Content
 ```ssh
 <section id="main">
         <div class="row">
@@ -863,6 +894,7 @@ footer {
     </section>
 ```
 
+- Kemudian tambahkan CSS
 ```ssh
 .box {
     display:block;
@@ -905,7 +937,10 @@ box img {
     clear:both;
 }
 ```
+![alt text](https://github.com/Ainun27/Lab4Web/blob/main/tugas4/9.png?raw=true)
 
+#### Menambahkan Content Artikel
+- Selanjutnya membuat content artikel. Tambahkan HTML berikut pada main conten
 ```ssh
 <hr class="divider" />
         <article class="entry">
@@ -927,7 +962,7 @@ box img {
         pretium ac.</p>
     </article>
 ```
-
+- Kemudian tambahkan CSS
 ```ssh
 .divider {
     display: flex;
@@ -954,4 +989,147 @@ margin-right: 15px;
 .entry .right-img {
     float: right;
 }   
+```
+![alt text](https://github.com/Ainun27/Lab4Web/blob/main/tugas4/10.png?raw=true)
+
+#### Pertanyaan dan Tugas
+1. Tambahkan Layout untuk menu About
+- buat single layout yang berisi deskripsi, portfolio, dll
+2. Tambahkan layout untuk menu Contact
+- yang berisi form isian: nama, email, message, dll
+
+- Code html about
+```ssh
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="about-container">
+        <h1>About Me</h1>
+        <p>Hello! I am ainun dwi permana. I am a graduate of Madrasah Aliyah Nur El-Ghozy in 2023 and currently pursuing a Bachelor of informatics
+            engineering at Universitas Pelita Bangsa. I have completed semester one with a GPA of 3.81. I am currently in
+            my second semester.</p>
+        
+        <h2>Portfolio</h2>
+        <div class="portfolio-section">
+            <div class="portfolio-item">
+                <h3>Project 1</h3>
+                <p>I am a dedicated, creative individual with strong problem solving skills. I also have excellent 
+                    communication skills, both verbally and in writing. I am able to work independently and as 
+                    part of a team. I am confident that I have the skills that match the qualifications required for 
+                    the Backend Developer.</p>
+        </div>
+    </div>
+</body>
+</html>
+```
+
+- code html contect
+```ssh
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contact-container">
+        <h1>Contact Me</h1>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea><br>
+
+            <input type="submit" value="Send">
+        </form>
+    </div>
+</body>
+</html>
+```
+
+- code css about dan contect
+```ssh
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.about-container, .contact-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    margin-top: 30px;
+    color: #555;
+}
+
+.portfolio-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio-item {
+    flex-basis: 48%;
+    margin-bottom: 20px;
+    background-color: #eaeaea;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
 ```
