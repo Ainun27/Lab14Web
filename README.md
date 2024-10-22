@@ -231,7 +231,10 @@ Tugas mengerjakan latihan pada module dua Pemrograman Web
 </body>
 </html>
 ```
+![alt text](https://github.com/Ainun27/Lab4Web/blob/main/tugas4/h.png?raw=true)
 
+#### Membuat Layout Sederhana
+-Buat folder baru dengan nama lab4_layout, kemudian buatlah file baru didalamnya dengan nama home.html, dan file css dengan nama style.css.
 
 ```ssh
 <!DOCTYPE html>
