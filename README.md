@@ -1028,6 +1028,7 @@ margin-right: 15px;
 </body>
 </html>
 ```
+![alt text](https://github.com/Ainun27/Lab4Web/blob/main/tugas4/l.png?raw=true)
 
 - code html contect
 ```ssh
@@ -1058,6 +1059,7 @@ margin-right: 15px;
 </body>
 </html>
 ```
+![alt text](https://github.com/Ainun27/Lab4Web/blob/main/tugas4/m.png?raw=true)
 
 - code css about dan contect
 ```ssh
@@ -1133,3 +1135,4 @@ input[type="submit"]:hover {
     background-color: #4cae4c;
 }
 ```
+
