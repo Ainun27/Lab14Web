@@ -175,6 +175,63 @@ Tugas mengerjakan latihan pada module dua Pemrograman Web
 ```
 ![alt text](https://github.com/Ainun27/Lab4Web/blob/main/tugas4/2.png?raw=true)
 
+- Lakukan eksperimen terhadap penggunaan property clear dengan nilai lainnya (left, both, right),  dan amati perubahannya.
+
+```ssh
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Element</title>
+    <style>
+        div {
+        float:left;
+        padding: 10px; 
+        }
+        .div1 {
+        background: red;
+        }
+        .div2 {
+        background: yellow;
+        }
+        .div3 {
+        background: green;
+        }
+        .div4 {
+        background-color: blue;
+        clear: left;
+        float: none;
+        }
+        .div5 {
+        background-color: blue;
+        clear: both;
+        float: none;
+        }
+        .div6 {
+        background-color: blue;
+        clear: right;
+        float: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Box Element</h1>
+    </header>
+
+    <section>
+        <div class="div1">Div 1</div>
+        <div class="div2">Div 2</div>
+        <div class="div3">Div 3</div> 
+        <div class="div4">Div 4</div> 
+        <div class="div5">Div 5</div> 
+        <div class="div6">Div 6</div> 
+    </section>
+</body>
+</html>
+```
+
 
 ```ssh
 <!DOCTYPE html>
